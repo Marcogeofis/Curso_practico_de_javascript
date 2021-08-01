@@ -1,3 +1,138 @@
 body{
-    background-color: #a52a2a;
+    background-color: #082032;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Arimo', sans-serif;
+}
+header {
+    background-color: #FF4C29;
+    padding-top:10px;
+}
+header h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 40px;
+}
+header p {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 18px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+section{
+/*  border: 2px dashed #FF4C29;*/
+    display:flex;
+    width: 100%;
+}
+.cont__cuadradoycirculo{
+    width: 41.5%;
+}
+#box{
+    background-color: #2C394B;
+    color: whitesmoke;
+    margin: 20px 20px;
+    width: 120%;
+    height: 500px;
+    border: 2px solid #FF4C29;
+    border-radius: 10px;
+}
+.calculo__cuadrado h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.3rem;
+    margin-top: 10px;
+}
+label{
+    padding-left: 15px;
+    font-size: 1.5rem;
+}
+.input__cuadrado{
+    display: block;
+    margin-top: 80px;
+    margin-left: 50px;
+    height: 21px;
+}
+.contenedor__padre{
+    margin-top: 60px;
+}
+.contenedor__perimetro--cuadrado{
+    margin-top: 100px;
+}
+.button{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 40%;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.respuesta{
+    height: 21px;
+    margin-left: 20px;
+}
+.calculo__circulo h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.3rem;
+    margin-top: 10px;
+}
+.label__circulo{
+    padding-left: 15px;
+    font-size: 1.5rem;
+}
+.Input__circulo{
+    display: block;
+    margin-top: 80px;
+    margin-left: 50px;
+    height: 21px;
+}
+/* aqui trabajaremos ell css del triangulo */
+.box__triangulo{
+    background-color: #2C394B;
+    color: whitesmoke;
+    border: 2px solid #FF4C29;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 42%;
+    height: 700px;
+}
+.box__triangulo h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.3rem;
+    margin-top: 10px;
+}
+
+.label_triangulo{
+    display: block;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    margin-top: 20px;    
+}
+.inp__triangulo{ 
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 21px;
+}
+.caja__botones{
+    display: inline-block;
+    width: 100%;
+}
+.button__triangulo{
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-left: 12.5px;
+    width: 30%;
+    height: 40px;
 }
