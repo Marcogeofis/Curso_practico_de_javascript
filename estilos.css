@@ -40,7 +40,7 @@ section{
     color: whitesmoke;
     margin: 20px 20px;
     width: 120%;
-    height: 500px;
+    height: 450px;
     border: 2px solid #FF4C29;
     border-radius: 10px;
 }
@@ -61,10 +61,10 @@ label{
     height: 21px;
 }
 .contenedor__padre{
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .contenedor__perimetro--cuadrado{
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .button{
     display: inline-block;
@@ -73,11 +73,7 @@ label{
     border-radius: 15px;
     width: 40%;
     height: 40px;
-    margin-top: 40px;
-    margin-left: 20px;
-}
-.respuesta{
-    height: 21px;
+    margin-top: 25px;
     margin-left: 20px;
 }
 .calculo__circulo h2{
@@ -105,7 +101,7 @@ label{
     margin-top: 20px;
     margin-left: 200px;
     width: 42%;
-    height: 700px;
+    height: 500px;
 }
 .box__triangulo h2{
     display: flex;
