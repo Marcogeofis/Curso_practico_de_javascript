@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tienda.css">
+    <title>Tienda con descuentos| curso práctico javascript</title>
+    <script src="tiendades.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Tienda online con descuentos</h1>
+        <p>Este es el segundo taller del curso práctico de JAVASCRIPT</p>
+    </header>
+    <section>
+        <h2>Calcula el precio a pagar de tus productos con descuentos</h2>
+        <form action="">
+            <label for="Inputprice">Escribe el precio del producto:</label>
+            <input id="Inputprice" type="number">
+
+            <label for="InputDiscount">Escribe el descuento de tu producto:</label>
+            <input id="InputDiscount" type="number">
+
+            <button type="button" onclick="onclickButtonPriceDiscount()">
+                Calcular el precio del prodcuto
+            </button>
+
+            <p id="ResultP"></p>
+        </form>
+    </section>
+</body>
+</html>
