@@ -14,3 +14,10 @@ practicas de javascript
 - Segundo paso: Implementar las formulas en javascript
 - Tercer paso: Crear funciones
 - Cuarto paso: Integrar JS a HTML
+
+## Taller 3. Calculo de la media, mediana y moda
+
+- Primer paso: Definir las formulas
+- Segundo paso: Implementar las formulas en javascript
+- Tercer paso: Crear funcion
+- Cuarto paso: Integrar JS a HTML
