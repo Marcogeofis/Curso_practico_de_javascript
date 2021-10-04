@@ -11,52 +11,42 @@
 </head>
 <body>
     <header>
-        <h1>Cálculo de figuras Geométricas</h1>
+        <h1>Figuras Geométricas</h1>
     <!--<script src="figuras.js"></script> -->
-        <p>Este es el primer taller del cúrso práctico de JavaScript</p>
+        <p>Ejercicios del cúrso práctico de JavaScript</p>
     </header>
     <section>
         <div class="cont__cuadradoycirculo">
             <div id="box" class="calculo__cuadrado">
-                <h2>Cálcula el área y el perímetro de un cuadrado</h2>
+                <h2>Área y perímetro de un cuadrado</h2>
                 <form >
-                    <label for="InputCuadrado">Escribe cuánto mide cada lado de tu cuadrado:</label>
+                    <label class="subtitle" for="InputCuadrado">¿Cuánto mide cada lado de tu cuadrado?</label>
                     <input id="InputCuadrado" type="number" class="input__cuadrado">
                     <div class="contenedor__padre">
-                        <div class="contenedor__perimetro--cuadrado">
                             <button type="button" onclick="calcularPerimetroCuadrado()" class="button">
                                 Calcular Perímetro
                             </button>
-                        </div>
-                        <div class="contenedor__area">
                             <button type="button" onclick="calcularAreaCuadrado()" class="button">
                                 Calcular Área
-                            </button>
-                        </div>
+                            </button>                        
                     </div>
                 </form>
             </div>
             <div id="box" class="calculo__circulo">
                 <h2>Cálcula el área y el perímetro de un circulo</h2>
                 <form>
-                    <label class="label__circulo" for="InputCirculo">Escribe cuánto mide el radio del círculo:</label>
+                    <label class="label__circulo" for="InputCirculo">¿Cuánto mide el radio del círculo?</label>
                     <input id="InputCirculo" type="number" class="Input__circulo">
                     <div class="contenedor__padre">
-                        <div class="contenedor__Diametro">
-                            <button type="button" onclick="calcularDiametroCirculo()" class="button">
+                            <button type="button" onclick="calcularDiametroCirculo()" class="button2">
                                 Calcular Diametro
                             </button>
-                        </div>
-                        <div class="contenedor__perimetro">
-                            <button type="button" onclick="calcularPerimetroCirculo()" class="button">
+                            <button type="button" onclick="calcularPerimetroCirculo()" class="button2">
                                 Calcular Perímetro
-                            </button>
-                        </div>
-                        <div class="contenedor__area">
-                            <button type="button" onclick="calcularAreaCirculo()" class="button">
+                            </button>  
+                            <button type="button" onclick="calcularAreaCirculo()" class="button2">
                                 Calcular Área
                             </button>
-                        </div>
                     </div>
                 </form>
             </div>
@@ -66,11 +56,11 @@
             <form>
                 <div class="caja__padre">
                 <div class="caja__etiquetas">
-                    <label class="label_triangulo" for="InputLadoATriangulo">Escribe cuánto mide el lado derecho del triángulo:</label>
+                    <label class="label_triangulo" for="InputLadoATriangulo">¿Cuánto mide el lado derecho del triángulo?</label>
                     <input class="inp__triangulo" id="InputLadoATriangulo" type="number">
-                    <label class="label_triangulo" for="InputLadoBTriangulo">Escribe cuánto mide el lado izquierdo del triángulo:</label>
+                    <label class="label_triangulo" for="InputLadoBTriangulo">¿Cuánto mide el lado izquierdo del triángulo?</label>
                     <input class="inp__triangulo" id="InputLadoBTriangulo" type="number">
-                    <label class="label_triangulo" for="InputBaseTriangulo">Escribe cuánto mide la base del triángulo:</label>
+                    <label class="label_triangulo" for="InputBaseTriangulo">¿Cuánto mide la base del triángulo?</label>
                     <input class="inp__triangulo" id="InputBaseTriangulo" type="number">
                 </div>
                 <div class="caja__botones">

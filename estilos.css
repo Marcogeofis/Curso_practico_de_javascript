@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #082032;
     box-sizing: border-box;
@@ -11,13 +16,14 @@ html{
 header {
     background-color: #FF4C29;
     padding-top:10px;
+    width: auto;
 }
 header h1{
     color: white;
     display: flex;
     justify-content: center;
     margin: 0;
-    font-size: 40px;
+    font-size: 3rem;
 }
 header p {
     display: flex;
@@ -26,50 +32,41 @@ header p {
     font-size: 18px;
     padding-bottom: 15px;
     margin-top: 10px;
-}
-section{
-/*  border: 2px dashed #FF4C29;*/
-    display:flex;
-    width: 100%;
+    margin-left: 10px;
 }
 .cont__cuadradoycirculo{
-    width: 41.5%;
+    width: auto;
+    margin-top: 20px;
 }
 #box{
     background-color: #2C394B;
     color: whitesmoke;
-    margin: 20px 20px;
-    width: 120%;
-    height: 450px;
+    height: 230px;
     border: 2px solid #FF4C29;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 .calculo__cuadrado h2{
-    display: flex;
-    justify-content: center;
-    font-size: 2.3rem;
+    text-align: center;
+    font-size: 2rem;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
-label{
-    padding-left: 15px;
+.subtitle{
+    margin-left: 10px;
     font-size: 1.5rem;
 }
 .input__cuadrado{
-    display: block;
-    margin-top: 80px;
-    margin-left: 50px;
-    height: 21px;
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 30px;
 }
 .contenedor__padre{
-    margin-top: 20px;
-}
-.contenedor__perimetro--cuadrado{
-    margin-top: 40px;
-}
-.button{
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+.button{
     border-radius: 15px;
     width: 40%;
     height: 40px;
@@ -77,39 +74,42 @@ label{
     margin-left: 20px;
 }
 .calculo__circulo h2{
-    display: flex;
-    justify-content: center;
-    font-size: 2.3rem;
+    text-align: center;
+    font-size: 2rem;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .label__circulo{
-    padding-left: 15px;
+    padding-left: 10px;
     font-size: 1.5rem;
 }
 .Input__circulo{
-    display: block;
-    margin-top: 80px;
-    margin-left: 50px;
-    height: 21px;
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 30px;
 }
-/* aqui trabajaremos ell css del triangulo */
+.button2{
+    justify-content: space-around;
+    border-radius: 15px;
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+}
 .box__triangulo{
     background-color: #2C394B;
+    /* aqui trabajaremos ell css del triangulo */
     color: whitesmoke;
     border: 2px solid #FF4C29;
     border-radius: 10px;
     margin-top: 20px;
-    margin-left: 200px;
-    width: 42%;
-    height: 500px;
+    width: auto;
+    height: 430px;
 }
 .box__triangulo h2{
-    display: flex;
-    justify-content: center;
-    font-size: 2.3rem;
+    text-align: center;
+    font-size: 2rem;
     margin-top: 10px;
 }
-
 .label_triangulo{
     display: block;
     padding-left: 15px;
@@ -118,17 +118,17 @@ label{
 }
 .inp__triangulo{ 
     margin-top: 20px;
-    margin-left: 30px;
-    height: 21px;
+    margin-left: 10px;
+    height: 30px;
 }
 .caja__botones{
-    display: inline-block;
+    display:flex;
+    justify-content: space-around;
     width: 100%;
 }
 .button__triangulo{
     border-radius: 15px;
-    margin-top: 60px;
-    margin-left: 12.5px;
-    width: 30%;
+    margin-top: 20px;
+    width: 100%;
     height: 40px;
 }
