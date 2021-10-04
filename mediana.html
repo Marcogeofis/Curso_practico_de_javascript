@@ -5,18 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mediana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&display=swap" rel="stylesheet">
     <script src="mediana.js"></script>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            font-size: 62.5%;
+            background: cornsilk;
+            font-family: 'Indie Flower', cursive;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 60px;
+            background-color:#F1C40F ;
+        }
+        
+        .container__main {
+            background: #58D68D;
+            width: 320px;
+            height: 380px;
+            margin-top: 20px;
+        }
+        .container__main h1{
+            text-align: center;
+            margin-top: 10px;
+            font-size: 2.5rem;
+        }
+        p {
+            margin-top: 15px;
+            font-size: 1.5rem;
+        }
+        form{
+            display:flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        form label {
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+        button{
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+            box-decoration-break: slice;
+            font-family: 'Indie Flower', cursive;
+            background: none;
+            border: none;
+            box-shadow: 0 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            box-shadow: 0 10px 20px whitesmoke;
+        }
+
+        footer {
+            text-align: center;
+            width: 100%;
+            height: 80px;
+            margin-top: 20px;
+            background-color: #F1C40F ;
+        }
+    </style>
 </head>
 <body>
+    <header>
+       <a href="./index.html"><img src="https://img.icons8.com/windows/32/000000/home.png"/></a>
+    </header>
     <section class="container__main">
         <h1>Ejercicio de cómo obtener la <span>Mediana</span></h1>
         <p>¿Qué es la <b>mediana</b>?</p>
         <p>La <b>mediana</b> es el valor que ocupa el lugar central dentro de un conjunto de datos cuando éstos están ordenados de menor a mayor.</p> 
-        <p>Veamos este caso: tenemos esta lista de datos [100, 200, 500, 400000000] </p>
+        <p>Veamos este caso: tenemos esta lista de datos [100, 200, 500, 400000000]. </p>
         <form>
-            <label for="cal_mediana">presiona el botón para calcular la mediana</label>
-            <button id="cal_mediana" type="button" onclick="calcularMediaArimetica(lista1)">Mediana</button>
+            <label for="cal_mediana">Presiona el botón para calcular la mediana</label>
+            <button id="cal_mediana " type="button" onclick="calcularMediaArimetica(lista1)">Mediana</button>
         </form>
     </section>
+    <footer>
+        <p>Desarrollado por Marco Antonio Rivera Cortés</p>
+    </footer>
 </body>
 </html>
