@@ -5,9 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mediana</title>
+    <script src="mediana.js"></script>
 </head>
 <body>
-    <h1>Mediana</h1>
-    <script src="mediana.js"></script>
+    <section class="container__main">
+        <h1>Ejercicio de cómo obtener la <span>Mediana</span></h1>
+        <p>¿Qué es la <b>mediana</b>?</p>
+        <p>La <b>mediana</b> es el valor que ocupa el lugar central dentro de un conjunto de datos cuando éstos están ordenados de menor a mayor.</p> 
+        <p>Veamos este caso: tenemos esta lista de datos [100, 200, 500, 400000000] </p>
+        <form>
+            <label for="cal_mediana">presiona el botón para calcular la mediana</label>
+            <button id="cal_mediana" type="button" onclick="calcularMediaArimetica(lista1)">Mediana</button>
+        </form>
+    </section>
 </body>
 </html>

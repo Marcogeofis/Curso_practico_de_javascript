@@ -5,7 +5,7 @@ const lista1 = [
     400000000,
 ];
 
-function calcularMediaArimetrica(lista) {
+function calcularMediaArimetica(lista) {
     const sumaLista = lista.reduce(
         function (valorAcomulado = 0, nuevoElemento){
             return valorAcomulado + nuevoElemento;
@@ -13,7 +13,8 @@ function calcularMediaArimetrica(lista) {
     ); // metodo reduce nos permite hacer la suma de nuestros elementos de nuestro array
     
     const promedioLista = sumaLista / lista.length;
-    return promedioLista;
+    //return promedioLista;
+    alert(promedioLista);
     }
 
 function calcularMedianaAritmetica(list){
@@ -34,7 +35,7 @@ if (esPar(list.length)){
     const elemento1 = list[mitadLista1 - 1];
     const elemento2 = list[mitadLista1];
 
-    const promedioElemento1y2 = calcularMediaArimetrica([
+    const promedioElemento1y2 = calcularMediaArimetica([
         elemento1,
         elemento2,
     ]);
