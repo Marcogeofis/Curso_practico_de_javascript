@@ -1,0 +1,19 @@
+/*Esta es la configuracion para la pantalla de tablet*/
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    width: 100%;
+}
+.cont__cuadradoycirculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 768px;
+}
+footer {
+    width: 100%;
+}
+

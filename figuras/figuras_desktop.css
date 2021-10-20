@@ -1,0 +1,20 @@
+/*configuracion para desktop*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    width: 100%;
+}
+.cont__cuadradoycirculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 920px;
+}
+footer {
+    width: 100%;
+}
+

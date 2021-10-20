@@ -1,10 +1,18 @@
+:root {
+    --naranja: #FF4C29;
+    --azul-oscuro: #082032;
+    --blanco: white;
+    --blanco-humo: whitesmoke;
+    --chocolate: chocolate;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: #082032;
+    background-color: var(--azul-oscuro);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,12 +22,12 @@ html{
     font-family: 'Arimo', sans-serif;
 }
 header {
-    background-color: #FF4C29;
+    background-color: var(--naranja);
     padding-top:10px;
     width: auto;
 }
 header h1{
-    color: white;
+    color:var(--blanco);
     display: flex;
     justify-content: center;
     margin: 0;
@@ -28,21 +36,21 @@ header h1{
 header p {
     display: flex;
     justify-content: center;
-    color: whitesmoke;
+    color: var(--blanco-humo);
     font-size: 18px;
     padding-bottom: 15px;
     margin-top: 10px;
     margin-left: 10px;
 }
 .cont__cuadradoycirculo{
-    width: auto;
+    width: 320;
     margin-top: 20px;
 }
 #box{
-    background-color: #2C394B;
-    color: whitesmoke;
+    background-color: var(--azul-oscuro);
+    color: var(--blanco-humo);
     height: 230px;
-    border: 2px solid #FF4C29;
+    border: 2px solid var(--naranja);
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -96,10 +104,10 @@ header p {
     margin-top: 25px;
 }
 .box__triangulo{
-    background-color: #2C394B;
+    background-color: var(--azul-oscuro);
     /* aqui trabajaremos ell css del triangulo */
-    color: whitesmoke;
-    border: 2px solid #FF4C29;
+    color: var(--blanco-humo);
+    border: 2px solid var(--naranja);
     border-radius: 10px;
     margin-top: 20px;
     width: auto;
@@ -132,3 +140,27 @@ header p {
     width: 100%;
     height: 40px;
 }
+footer {
+    background:var(--naranja);
+    color: var(--blanco-humo);
+    font-size: 1.5rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 40px;
+}
+/*Aqui inicia el media queri
+@media (min-width:321px){
+    .cont__cuadradoycirculo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #box{
+        width: 720px;
+        justify-content: space-between;
+    }
+}
+*/

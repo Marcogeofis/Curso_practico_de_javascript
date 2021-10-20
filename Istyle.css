@@ -1,8 +1,6 @@
 /*color cornflowerblue
  color  #2874A6
 */
-
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -26,7 +24,7 @@ header{
     text-align: center;
 }
 .title-cjs{
-    background-color: #884EA0;
+    background-color: #C996CC; /*#884EA0*/
     border-radius: 10px;
     box-shadow: 0 2px 30px;
     color: azure;
@@ -78,6 +76,14 @@ header p{
     box-shadow: 0 2px 25px azure;
     font-weight: bold;
 }
+.name_li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: azure;
+    font-size: 1.8rem;
+}
 #boxes__navs a{
     display: inline-block;
     font-size: 2rem;
@@ -87,4 +93,10 @@ header p{
 }
 #boxes__navs a:hover{
     font-weight: bold;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: azure;
 }

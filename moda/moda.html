@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda</title>
+</head>
+<style>
+    :root {
+        --hueso:#F5E8C7;
+        --carne:#DEBA9D;
+        --morado-light: #9E7777;
+        --morado-claro: #6F4C5B;
+    }
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        font-size: 62.5%;
+        background: cornsilk;
+        font-family: 'Indie Flower', cursive;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--morado-claro);
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        background-color: var(--morado-light) ;
+    }
+    
+    .container__main {
+        background:var(--hueso);
+        width: 320px;
+        height: 457px;
+        margin-top: 20px;
+    }
+    .container__main h1{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 2.5rem;
+    }
+    p {
+        margin-top: 15px;
+        font-size: 1.5rem;
+    }
+    form{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    form label {
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+    button{
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        box-decoration-break: slice;
+        font-family: 'Indie Flower', cursive;
+        background: none;
+        border: none;
+        box-shadow: 0 10px 20px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+    button:hover {
+        box-shadow: 0 10px 20px var(--carne);
+    }
+
+    footer {
+        text-align: center;
+        width: 100%;
+        height: 80px;
+        margin-top: 20px;
+        background-color: var(--morado-light);
+    }
+    .footer__id{
+        margin-top: 30px;
+    }
+</style>
+</head>
+<body>
+<header>
+   <a href="../index.html"><img src="https://img.icons8.com/windows/32/000000/home.png"/></a>
+</header>
+<section class="container__main">
+    <h1>Ejercicio de cómo obtener la <span>Moda</span></h1>
+    <p>¿Qué es la <b>moda</b>?</p>
+    <p>En la estadística, la moda es el valor que aparece con mayor frecuencia en un conjunto de datos. Esto va en forma de una columna cuando encontremos dos modas, es decir, dos datos que tengan la misma frecuencia absoluta máxima..</p> 
+    <p>Veamos este caso: tenemos esta lista de datos [1,2,3,1,2,3,4,2,2,2,1,]. </p>
+    <form>
+        <label for="cal_mediana">Presiona el botón para calcular la moda</label>
+        <button id="cal_mediana " type="button" onclick="calcularModa(lista1)">Moda</button>
+    </form>
+</section>
+<footer>
+    <p class="footer__id">Desarrollado por Marco Antonio Rivera Cortés</p>
+</footer>
+</body>
+</html>
