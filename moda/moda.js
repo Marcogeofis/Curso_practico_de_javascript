@@ -24,10 +24,15 @@ lista1.map(
     }
 );
 
+
+// cuando queremos comvertir un objeto en un array usamos la siguiente instrucción: OBJETC.ENTRIES
 const lista1Array = Object.entries(lista1Count).sort(
     function (elementoA, elementoB) {
         return elementoA[1] - elementoB[1];
     }
 );
 
-const moda = lista1Array[lista1Array.length - 1];
+function calcularModa(lista1){
+    const moda = lista1Array[lista1Array.length - 1];
+    alert("La moda es: " +moda);
+}

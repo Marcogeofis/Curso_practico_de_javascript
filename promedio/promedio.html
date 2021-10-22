@@ -7,22 +7,26 @@
     <title>Promedio</title>
     <link rel="stylesheet" href="estilospromedio.css
     ">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap" rel="stylesheet"> 
+    <script src="promedio.js"></script>
 </head>
 <body>
-    <main>
+    <header>
+        <a href="../index.html"><img src="https://img.icons8.com/windows/32/000000/home.png"/></a>
+    </header>
+    <main>  
         <div class="container__title">
             <h1>Promedio</h1>
         </div>
         <div class="container__texto">
             <p>Es el resultado que se obtiene al dividir la suma de varias
              cantidades por el número de sumados. Por ejemplo: Cálculemos el promedio de 
-            una lista de numeros que son la calificación de un alumno: [7, 8, 10, 6, 9].</p>
+            una lista de numeros: [100, 200, 300, 500].</p>
         </div>
         <form>
             <label for="promedioAlumno">¿Cuál seria el promedio del alumno?</label>
-            <button id="promedioAlumno" type="button">Calcular promedio</button>
+            <button id="promedioAlumno" type="button" onclick="calcularMediaArimetrica(lista1)">Calcular promedio</button>
         </form>
     </main>
-    <script src="promedio.js"></script>
 </body>
 </html>
